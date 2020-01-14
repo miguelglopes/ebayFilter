@@ -1,0 +1,20 @@
+{
+  "name": "Ebay Muita Bom",
+  "version": "0.0.5",
+  "description": "Remove low ranked sellers",
+  "permissions": ["storage", "activeTab", "declarativeContent"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/ebay16.png",
+      "32": "images/ebay32.png",
+      "48": "images/ebay48.png",
+      "128": "images/ebay128.png"
+    }
+  },
+  "manifest_version": 2
+}
